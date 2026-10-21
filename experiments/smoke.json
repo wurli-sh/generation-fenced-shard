@@ -1,0 +1,20 @@
+{
+  "status": "proposed-config-no-runner-yet",
+  "scenario": "add-shard",
+  "seed": 42,
+  "initial_shards": 3,
+  "target_shards": 4,
+  "partitions": 4096,
+  "virtual_nodes_per_shard": 100,
+  "entities": 100000,
+  "value_bytes": 1024,
+  "read_fraction": 0.9,
+  "key_distribution": "uniform",
+  "clients": 32,
+  "offered_requests_per_second": 1000,
+  "warmup_seconds": 15,
+  "steady_seconds": 30,
+  "post_migration_seconds": 30,
+  "trial_seeds": [42, 43, 44, 45, 46],
+  "protocols": ["immediate-reroute", "global-pause", "partition-stop-copy", "online-fenced"]
+}

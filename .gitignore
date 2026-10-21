@@ -1,0 +1,33 @@
+# Local documentation notes and working drafts
+/docs/
+
+# Go tooling and dependencies
+/vendor/
+*.test
+*.prof
+coverage.out
+coverage.txt
+
+# Locally built commands and temporary files
+/bin/
+/tmp/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Environment and editor files
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Generated experiment data
+/results/runs/*
+!/results/runs/release-20261020-v2/
+!/results/runs/controlled-20261021-v2/
+
