@@ -1,0 +1,9 @@
+{
+  "entities": 32,
+  "operations": 300,
+  "sequential": true,
+  "trial": 2,
+  "value_bytes": 1024,
+  "variant": "guarded_write",
+  "warmup_operations": 100
+}

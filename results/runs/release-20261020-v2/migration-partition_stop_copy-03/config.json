@@ -1,0 +1,10 @@
+{
+  "entities": 200,
+  "mode": "partition_stop_copy",
+  "partition": 114,
+  "sequential_workload": true,
+  "tick_ms": 2,
+  "trial": 3,
+  "unaffected_partition": 115,
+  "value_bytes": 1024
+}

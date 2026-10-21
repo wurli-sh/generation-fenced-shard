@@ -1,0 +1,10 @@
+{
+  "entities": 200,
+  "mode": "global_pause",
+  "partition": 116,
+  "sequential_workload": true,
+  "tick_ms": 2,
+  "trial": 4,
+  "unaffected_partition": 117,
+  "value_bytes": 1024
+}

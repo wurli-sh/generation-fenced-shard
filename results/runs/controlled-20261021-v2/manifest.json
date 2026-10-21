@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-10-21T06:52:24Z",
+  "finished_utc": "2026-10-21T06:52:46Z",
+  "fsync": "on",
+  "go": "go1.27.1-X:nodwarf5",
+  "goarch": "amd64",
+  "goos": "linux",
+  "logical_cpus": 20,
+  "postgres_version": "18.6",
+  "settings": {
+    "partition_entities": [
+      50,
+      200,
+      1000
+    ],
+    "clients": [
+      1,
+      4,
+      8
+    ],
+    "trials": 3,
+    "value_bytes": 1024,
+    "before_ms": 200,
+    "after_ms": 200,
+    "think_ms": 1
+  },
+  "source_sha256": {
+    "cmd/controlled/main.go": "7c586abc27e2ece6e18bc1827a5b47dc1d745e00ddf0d8693ce72559c648bfbe",
+    "db/001-control.sql": "1610c1d7db1fb6ad0488199493c710156513ddb35535efffc724dba67ba0fc55",
+    "db/002-shard.sql": "228ed7f4f1b3050d6a89e44acdcfb2a64d0625c64497aa0cb33d4003230a607a",
+    "db/003-admission.sql": "583450be86b58406d57ac7d264736fcd42e39a664c0c273d02ffed65717f1d9a",
+    "internal/migration/stopcopy.go": "7a724b77dc7affaa33e43df1e8075b474f54f8fb6f34492c4e5d3f0ede58fab2",
+    "internal/store/store.go": "da35d5f8cc3e8bd32c2addee68c8fd945f89a8213f41dc9a13fb9b3842dcb422",
+    "scripts/run-controlled.sh": "10b8e74e87333f4deae7166a1f54895074e79e1a9a7ba4123e993e8c3de12e5d"
+  },
+  "status": "complete_single_host_concurrent_study",
+  "synchronous_commit": "on"
+}

@@ -1,0 +1,11 @@
+{
+  "after_ms": 200,
+  "before_ms": 200,
+  "clients": 4,
+  "entities": 1000,
+  "moving_partition": 142,
+  "think_ms": 1,
+  "trial": 0,
+  "unaffected_partition": 143,
+  "value_bytes": 1024
+}

@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-10-20T14:33:51Z",
+  "finished_utc": "2026-10-20T14:33:56Z",
+  "fsync": "on",
+  "go": "go1.27.1-X:nodwarf5",
+  "goarch": "amd64",
+  "goos": "linux",
+  "logical_cpus": 20,
+  "postgres_version": "18.6",
+  "settings": {
+    "trials": 5,
+    "entities_per_moving_partition": 200,
+    "value_bytes": 1024,
+    "admission_operations_per_trial": 300,
+    "admission_warmup_operations": 100,
+    "offered_interval_ms": 2
+  },
+  "source_sha256": {
+    "cmd/evaluate/main.go": "36c2abfd10caf68d14d5f1a27d320c8aadc58d5fc5362fa8a0a347af46c88365",
+    "cmd/plot/main.go": "84b5322e0539cdabb013d5e1c96f2d51065b54c3fb5630e792da4873061eb9e9",
+    "db/001-control.sql": "1610c1d7db1fb6ad0488199493c710156513ddb35535efffc724dba67ba0fc55",
+    "db/002-shard.sql": "228ed7f4f1b3050d6a89e44acdcfb2a64d0625c64497aa0cb33d4003230a607a",
+    "db/003-admission.sql": "583450be86b58406d57ac7d264736fcd42e39a664c0c273d02ffed65717f1d9a",
+    "internal/history/check.go": "6285ce04e60cb08f92abd937851424e6476e6e2e3047056ffe28a560ac53bfb5",
+    "internal/migration/stopcopy.go": "7a724b77dc7affaa33e43df1e8075b474f54f8fb6f34492c4e5d3f0ede58fab2",
+    "internal/placement/baseline.go": "1ec177e5d733153c8e74d32bd1e74d50db039ee3ceb71014a2fcf501531af708",
+    "internal/placement/partitions.go": "e2e9113d2499764b9989c1276accd6c550430ba0669e78f6d96800ea3564307f",
+    "internal/store/store.go": "da35d5f8cc3e8bd32c2addee68c8fd945f89a8213f41dc9a13fb9b3842dcb422",
+    "scripts/run-evaluation.sh": "6afdc0a424a990468d9e911132ce6b28f3647b08f020873ebe78c9aef8ea9e7f"
+  },
+  "status": "complete_local_pilot",
+  "synchronous_commit": "on"
+}
